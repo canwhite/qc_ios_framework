@@ -30,6 +30,9 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - Masonry (1.1.0)
+  - MMKV (1.3.0):
+    - MMKVCore (~> 1.3.0)
+  - MMKVCore (1.3.0)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -42,6 +45,7 @@ DEPENDENCIES:
   - AFNetworking (~> 4.0)
   - BlocksKit
   - Masonry
+  - MMKV
   - ReactiveCocoa (= 2.5)
 
 SPEC REPOS:
@@ -49,14 +53,18 @@ SPEC REPOS:
     - AFNetworking
     - BlocksKit
     - Masonry
+    - MMKV
+    - MMKVCore
     - ReactiveCocoa
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   BlocksKit: 8639b2848dd51c35c957af4d9fbdc7a769a1fc12
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MMKV: 9c6c3fa4ddd849f28c7b9a5c9d23aab84f14ee35
+  MMKVCore: 9bb7440b170181ac5b81f542ac258103542e693d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: ffd858adfb6703b6ad61751c698abba2761738f4
+PODFILE CHECKSUM: 7b54bb4c277d35287fddfad4cd35740c66a0c7c2
 
 COCOAPODS: 1.11.3

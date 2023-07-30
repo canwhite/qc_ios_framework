@@ -16,6 +16,7 @@
 		143FA7682A76383F00773FF7 /* qc_ios_frameworkUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7672A76383F00773FF7 /* qc_ios_frameworkUITestsLaunchTests.m */; };
 		143FA7762A76455000773FF7 /* QCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7742A76455000773FF7 /* QCViewController.m */; };
 		143FA77C2A7657C700773FF7 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA77B2A7657C700773FF7 /* NetworkTool.m */; };
+		143FA77F2A7664D200773FF7 /* MMKVManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA77E2A7664D200773FF7 /* MMKVManager.m */; };
 		D6173F98B14DC28501CAAE11 /* libPods-qc_ios_framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D07501F88CCDD60D350438 /* libPods-qc_ios_framework.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		143FA7782A7654B800773FF7 /* prefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefixHeader.h; sourceTree = "<group>"; };
 		143FA77A2A7657C700773FF7 /* NetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
 		143FA77B2A7657C700773FF7 /* NetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		143FA77D2A7664D200773FF7 /* MMKVManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMKVManager.h; sourceTree = "<group>"; };
+		143FA77E2A7664D200773FF7 /* MMKVManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMKVManager.m; sourceTree = "<group>"; };
 		2E0A29FF546D94EA344647DD /* Pods-qc_ios_framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qc_ios_framework.release.xcconfig"; path = "Target Support Files/Pods-qc_ios_framework/Pods-qc_ios_framework.release.xcconfig"; sourceTree = "<group>"; };
 		41A24962920AF6E7BF241C65 /* Pods-qc_ios_framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qc_ios_framework.debug.xcconfig"; path = "Target Support Files/Pods-qc_ios_framework/Pods-qc_ios_framework.debug.xcconfig"; sourceTree = "<group>"; };
 		45D07501F88CCDD60D350438 /* libPods-qc_ios_framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qc_ios_framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +157,8 @@
 			children = (
 				143FA77A2A7657C700773FF7 /* NetworkTool.h */,
 				143FA77B2A7657C700773FF7 /* NetworkTool.m */,
+				143FA77D2A7664D200773FF7 /* MMKVManager.h */,
+				143FA77E2A7664D200773FF7 /* MMKVManager.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				143FA7762A76455000773FF7 /* QCViewController.m in Sources */,
 				143FA7412A76383D00773FF7 /* AppDelegate.m in Sources */,
 				143FA7522A76383F00773FF7 /* main.m in Sources */,
+				143FA77F2A7664D200773FF7 /* MMKVManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

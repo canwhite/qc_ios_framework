@@ -16,10 +16,12 @@
 #import "ReactiveCocoa.h"
 
 // AFNetworking
-#import <AFNetworking/AFNetworking.h>
 #import "AFNetworking.h"
 
 // Masonry
 #import "Masonry.h"
+
+// MMKV
+#import <MMKV/MMKV.h>
 
 #endif /* prefixHeader_h */
