@@ -14,9 +14,13 @@
 		143FA75C2A76383F00773FF7 /* qc_ios_frameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA75B2A76383F00773FF7 /* qc_ios_frameworkTests.m */; };
 		143FA7662A76383F00773FF7 /* qc_ios_frameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7652A76383F00773FF7 /* qc_ios_frameworkUITests.m */; };
 		143FA7682A76383F00773FF7 /* qc_ios_frameworkUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7672A76383F00773FF7 /* qc_ios_frameworkUITestsLaunchTests.m */; };
-		143FA7762A76455000773FF7 /* QCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7742A76455000773FF7 /* QCViewController.m */; };
 		143FA77C2A7657C700773FF7 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA77B2A7657C700773FF7 /* NetworkTool.m */; };
 		143FA77F2A7664D200773FF7 /* MMKVManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA77E2A7664D200773FF7 /* MMKVManager.m */; };
+		143FA7892A7668B400773FF7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7872A7668B400773FF7 /* FirstViewController.m */; };
+		143FA78C2A766ADD00773FF7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA78B2A766ADD00773FF7 /* SecondViewController.m */; };
+		143FA7922A76964600773FF7 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7912A76964600773FF7 /* TabBarViewController.m */; };
+		143FA7992A7696E300773FF7 /* FirstNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA7982A7696E300773FF7 /* FirstNavViewController.m */; };
+		143FA79C2A7696FC00773FF7 /* SecondNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143FA79B2A7696FC00773FF7 /* SecondNavViewController.m */; };
 		D6173F98B14DC28501CAAE11 /* libPods-qc_ios_framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D07501F88CCDD60D350438 /* libPods-qc_ios_framework.a */; };
 /* End PBXBuildFile section */
 
@@ -50,13 +54,21 @@
 		143FA7612A76383F00773FF7 /* qc_ios_frameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qc_ios_frameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143FA7652A76383F00773FF7 /* qc_ios_frameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qc_ios_frameworkUITests.m; sourceTree = "<group>"; };
 		143FA7672A76383F00773FF7 /* qc_ios_frameworkUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qc_ios_frameworkUITestsLaunchTests.m; sourceTree = "<group>"; };
-		143FA7742A76455000773FF7 /* QCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCViewController.m; sourceTree = "<group>"; };
-		143FA7752A76455000773FF7 /* QCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCViewController.h; sourceTree = "<group>"; };
 		143FA7782A7654B800773FF7 /* prefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefixHeader.h; sourceTree = "<group>"; };
 		143FA77A2A7657C700773FF7 /* NetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
 		143FA77B2A7657C700773FF7 /* NetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
 		143FA77D2A7664D200773FF7 /* MMKVManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMKVManager.h; sourceTree = "<group>"; };
 		143FA77E2A7664D200773FF7 /* MMKVManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMKVManager.m; sourceTree = "<group>"; };
+		143FA7872A7668B400773FF7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		143FA7882A7668B400773FF7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		143FA78A2A766ADD00773FF7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		143FA78B2A766ADD00773FF7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		143FA7902A76964600773FF7 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		143FA7912A76964600773FF7 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		143FA7972A7696E300773FF7 /* FirstNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstNavViewController.h; sourceTree = "<group>"; };
+		143FA7982A7696E300773FF7 /* FirstNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstNavViewController.m; sourceTree = "<group>"; };
+		143FA79A2A7696FC00773FF7 /* SecondNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondNavViewController.h; sourceTree = "<group>"; };
+		143FA79B2A7696FC00773FF7 /* SecondNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondNavViewController.m; sourceTree = "<group>"; };
 		2E0A29FF546D94EA344647DD /* Pods-qc_ios_framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qc_ios_framework.release.xcconfig"; path = "Target Support Files/Pods-qc_ios_framework/Pods-qc_ios_framework.release.xcconfig"; sourceTree = "<group>"; };
 		41A24962920AF6E7BF241C65 /* Pods-qc_ios_framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qc_ios_framework.debug.xcconfig"; path = "Target Support Files/Pods-qc_ios_framework/Pods-qc_ios_framework.debug.xcconfig"; sourceTree = "<group>"; };
 		45D07501F88CCDD60D350438 /* libPods-qc_ios_framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qc_ios_framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,12 +125,13 @@
 		143FA73E2A76383D00773FF7 /* qc_ios_framework */ = {
 			isa = PBXGroup;
 			children = (
+				143FA7822A76661B00773FF7 /* ViewModel */,
+				143FA7812A7665FC00773FF7 /* View */,
+				143FA7802A7665DD00773FF7 /* Model */,
 				143FA7792A76567300773FF7 /* Utils */,
 				143FA7772A76548E00773FF7 /* Common */,
 				143FA73F2A76383D00773FF7 /* AppDelegate.h */,
 				143FA7402A76383D00773FF7 /* AppDelegate.m */,
-				143FA7752A76455000773FF7 /* QCViewController.h */,
-				143FA7742A76455000773FF7 /* QCViewController.m */,
 				143FA74B2A76383F00773FF7 /* Assets.xcassets */,
 				143FA74D2A76383F00773FF7 /* LaunchScreen.storyboard */,
 				143FA7502A76383F00773FF7 /* Info.plist */,
@@ -161,6 +174,53 @@
 				143FA77E2A7664D200773FF7 /* MMKVManager.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		143FA7802A7665DD00773FF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		143FA7812A7665FC00773FF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				143FA7932A76967700773FF7 /* NavBar */,
+				143FA7862A76683300773FF7 /* TabBar */,
+				143FA7882A7668B400773FF7 /* FirstViewController.h */,
+				143FA7872A7668B400773FF7 /* FirstViewController.m */,
+				143FA78A2A766ADD00773FF7 /* SecondViewController.h */,
+				143FA78B2A766ADD00773FF7 /* SecondViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		143FA7822A76661B00773FF7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		143FA7862A76683300773FF7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				143FA7902A76964600773FF7 /* TabBarViewController.h */,
+				143FA7912A76964600773FF7 /* TabBarViewController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		143FA7932A76967700773FF7 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				143FA7972A7696E300773FF7 /* FirstNavViewController.h */,
+				143FA7982A7696E300773FF7 /* FirstNavViewController.m */,
+				143FA79A2A7696FC00773FF7 /* SecondNavViewController.h */,
+				143FA79B2A7696FC00773FF7 /* SecondNavViewController.m */,
+			);
+			path = NavBar;
 			sourceTree = "<group>";
 		};
 		220E0423B2E80303667FD079 /* Pods */ = {
@@ -335,11 +395,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143FA79C2A7696FC00773FF7 /* SecondNavViewController.m in Sources */,
+				143FA78C2A766ADD00773FF7 /* SecondViewController.m in Sources */,
 				143FA77C2A7657C700773FF7 /* NetworkTool.m in Sources */,
-				143FA7762A76455000773FF7 /* QCViewController.m in Sources */,
+				143FA7922A76964600773FF7 /* TabBarViewController.m in Sources */,
 				143FA7412A76383D00773FF7 /* AppDelegate.m in Sources */,
+				143FA7892A7668B400773FF7 /* FirstViewController.m in Sources */,
 				143FA7522A76383F00773FF7 /* main.m in Sources */,
 				143FA77F2A7664D200773FF7 /* MMKVManager.m in Sources */,
+				143FA7992A7696E300773FF7 /* FirstNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

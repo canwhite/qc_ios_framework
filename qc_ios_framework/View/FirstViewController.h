@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QCViewController : UIViewController
+@interface FirstViewController : UIViewController
 
 
 @end

@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QCViewController.h"
+#import "View/FirstViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (strong, nonatomic) UIWindow * window;
 

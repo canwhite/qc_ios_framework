@@ -24,4 +24,7 @@
 // MMKV
 #import <MMKV/MMKV.h>
 
+// Hex
+#import "UIColor+Hex.h"
+
 #endif /* prefixHeader_h */

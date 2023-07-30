@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TabBarViewController.h"
 
 @interface AppDelegate ()
 @end
@@ -19,12 +19,13 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    QCViewController *vc = [[QCViewController alloc] init];
-    //加个nav控制器
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = nav;
+//    FirstViewController *vc = [[FirstViewController alloc] init];
+//    //加个nav控制器
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController =[[TabBarViewController alloc]init];
     [self.window makeKeyAndVisible];
     return  YES;
+    
 }
 
 
