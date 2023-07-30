@@ -13,10 +13,14 @@
 
 @implementation SecondViewController
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear: YES];
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.navigationItem.title = @"我的";
+
     // Do any additional setup after loading the view.
     UILabel *label = [[UILabel alloc] init];
     label.text = @"Second";

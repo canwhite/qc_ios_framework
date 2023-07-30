@@ -1,14 +1,15 @@
 //
 //  AppDelegate.h
-//  qc_ios_framework
+//  qc_ios_fk
 //
-//  Created by zack on 2023/7/30.
+//  Created by zack on 2023/7/31.
 //
 
 #import <UIKit/UIKit.h>
-#import "View/FirstViewController.h"
+#import "TabBarViewController.h"
+#import "BaseNavigationController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow * window;
 
+@property(nonatomic,strong) UIWindow *window;
 @end
 
