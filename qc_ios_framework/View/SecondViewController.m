@@ -30,6 +30,38 @@
         make.center.equalTo(self.view);
     }];
     
+    //logout
+    UIButton *btn = [UIButton new];
+    [self.view addSubview:btn];
+    //然后设置一些颜色什么的
+    [btn setTitle:@"logout" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btn setBackgroundColor:[UIColor blueColor]];
+    btn.layer.cornerRadius = 5.0;
+    [btn addTarget:self action:@selector(logoutAction) forControlEvents:UIControlEventTouchUpInside];
+    
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(label.mas_bottom).offset(20);
+        make.centerX.equalTo(self.view);
+        make.width.equalTo(@120);
+        make.height.equalTo(@34);
+    }];
+    
+    
+}
+
+- (void)logoutAction {
+    // 调用接口进行登录
+    NSLog(@"logout");
+//    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    // 获取当前的窗口对象
+    UIWindow *window = self.view.window;
+
+    // 创建一个登录页面的视图控制器对象
+    LoginViewController *loginVC = [[LoginViewController alloc] init];
+    // 将窗口的根视图控制器替换为登录页面的视图控制器
+    window.rootViewController = loginVC;
+    
 }
 
 /*
