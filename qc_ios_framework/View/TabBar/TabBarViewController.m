@@ -9,6 +9,7 @@
 #import "BaseNavigationController.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 
 @interface TabBarViewController ()
@@ -33,18 +34,22 @@
     
     // 初始化子控制器和Nav控制器
     FirstViewController *home =  [[FirstViewController alloc] init];
-    SecondViewController *mine =  [[SecondViewController alloc] init];
+    SecondViewController *sevice =  [[SecondViewController alloc] init];
+    ThirdViewController *mine = [ThirdViewController new];
+    
 
     
     // 设置TabBarItem的标题和图标
     home.tabBarItem.title = @"首页";
 //    homeNav.tabBarItem.image = [UIImage imageNamed:@"home"];
-    mine.tabBarItem.title = @"我的";
+    sevice.tabBarItem.title = @"服务";
 //    mineNav.tabBarItem.image = [UIImage imageNamed:@"mine"];
+    mine.tabBarItem.title = @"我的";
+    
 
     self.tabBar.backgroundColor =[UIColor colorWithHex:0xF2F293];
     // 添加到viewControllers数组中
-    self.viewControllers = @[home, mine];
+    self.viewControllers = @[home, sevice,mine];
     self.delegate = self;
     
 }
@@ -57,8 +62,13 @@
         self.title = @"首页";
     }
     if ([viewController isKindOfClass:[SecondViewController class]]) {
+        self.title = @"服务";
+    }
+    if([viewController isKindOfClass:[ThirdViewController class]]){
         self.title = @"我的";
     }
+    
+    
 }
 
 -(BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {

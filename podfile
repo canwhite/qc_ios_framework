@@ -8,5 +8,6 @@ target 'qc_ios_framework' do
     pod 'Masonry'
     pod 'MMKV'
     pod 'UIColor+Hex', '~> 1.0'
+    pod 'SDAutoLayout'
     
 end

@@ -40,6 +40,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - SDAutoLayout (2.2.1)
   - "UIColor+Hex (1.0.1)":
     - "UIColor+Hex/NSColor (= 1.0.1)"
     - "UIColor+Hex/UIColor (= 1.0.1)"
@@ -51,6 +52,7 @@ DEPENDENCIES:
   - Masonry
   - MMKV
   - ReactiveCocoa (= 2.5)
+  - SDAutoLayout
   - "UIColor+Hex (~> 1.0)"
 
 SPEC REPOS:
@@ -61,6 +63,7 @@ SPEC REPOS:
     - MMKV
     - MMKVCore
     - ReactiveCocoa
+    - SDAutoLayout
     - "UIColor+Hex"
 
 SPEC CHECKSUMS:
@@ -70,8 +73,9 @@ SPEC CHECKSUMS:
   MMKV: 9c6c3fa4ddd849f28c7b9a5c9d23aab84f14ee35
   MMKVCore: 9bb7440b170181ac5b81f542ac258103542e693d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
   "UIColor+Hex": 9fee91bb8e19f17dd40a79ae1e98949a6a84489d
 
-PODFILE CHECKSUM: fdcb06d353a5dc1651b2f9f5bfaacd0949321f6c
+PODFILE CHECKSUM: 347fd35175ca1e39e9e9323abafc5bbed6ea81af
 
 COCOAPODS: 1.11.3
