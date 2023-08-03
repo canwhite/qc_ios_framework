@@ -99,6 +99,17 @@
     static NSString  *identify = @"cell1";
     MineCollectionViewCell *cell1 = [collectionView dequeueReusableCellWithReuseIdentifier:identify forIndexPath:indexPath];
     cell1.imageArr = self.imageArr[indexPath.row];
+    /**
+        Person *person = self.dataArray[indexPath.item];
+        // 将模型对象传递给 CollectionCell 的属性或方法
+        cell.person = person;
+        // 或者
+        [cell configWithPerson:person];
+        // 返回 CollectionCell
+        return cell;
+     */
+    
+    
     return cell1;
 }
 
